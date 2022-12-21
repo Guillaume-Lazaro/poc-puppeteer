@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <h1>1er test de génération de PDF via puppeteer</h1>
+    <p>Tests avec des objets et des tableaux</p>
+    <p>{{id.name.first}} - {{id.name.last}}</p>
+    <p>{{id.animal}} {{id.color}} {{id.bread}}</p>
+
+    <table>
+      <tr>
+        <th>
+          Type
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+      -- Un peu de handlebars :
+      {{#each shots as |shot|}}
+      <tr>
+        <td>
+          {{shot.type}}
+        </td>
+        <td>
+          {{dateFormat shot.date 'MMM Do'}}
+        </td>
+      </tr>
+      {{/each}}
+    </table>
+  </body>
+</html>

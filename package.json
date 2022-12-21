@@ -1,0 +1,17 @@
+{
+  "name": "poc-puppeteer",
+  "version": "1.0.0",
+  "description": "POC of puppeteers PDF features",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "handlebars": "^4.7.7",
+    "moment": "^2.29.4",
+    "puppeteer": "^19.4.1"
+  }
+}

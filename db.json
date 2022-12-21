@@ -1,0 +1,25 @@
+{
+  "id": {
+    "name": {
+      "first":"Maya",
+      "last":"Albert"
+    },
+    "animal":"dog",
+    "color":"Brown",
+    "breed": "Carolina dog"
+  },
+  "shots": [
+    {
+      "type":"Heartworm",
+      "date":"2022-21-12"
+    },
+    {
+      "type": "Intestinal Parasite",
+      "date":"2022-10-10"
+    },
+    {
+      "type":"Covid",
+      "date":"2020-10-10"
+    }
+  ]
+}
